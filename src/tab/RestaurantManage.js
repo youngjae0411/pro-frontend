@@ -109,8 +109,8 @@ function RestaurantManage() {
           <div className="nav-commit"></div>
         </header>
         <div>
-          <h2>동백커피</h2>
-          <div>부산시 수영구 센텀1로 777</div>
+          <h2>{restaurant.name}</h2>
+          <div>{restaurant.address}</div>
           <div className="action-btns" style={{marginTop: '1rem'}}>
             <button onClick={() => handleChangeRestaurant('name')}>매장 이름 변경</button>
             <button onClick={() => handleChangeRestaurant('address')}>주소 변경</button>
