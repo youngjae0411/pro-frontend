@@ -29,6 +29,7 @@ jobs:
         run: npm run build
         env:
           CI: ''
+          REACT_APP_ENDPOINT: http://123-647076553.ap-northeast-2.elb.amazonaws.com
  
       - name: Deploy
         env:
